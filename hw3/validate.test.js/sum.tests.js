@@ -10,6 +10,9 @@ var fs= require('fs');
 test('test ordersMade', () =>{
     var js = fs.readFileSync('routes/orders.js', 'utf8');
     expect(js).toEqual(expect.anything());//any non-null value is okay
+
+    //put js into a testing DOM and do a "sanity" check
+    //document.body.
 });
 
 
